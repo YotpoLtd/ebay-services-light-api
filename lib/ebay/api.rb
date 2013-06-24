@@ -53,7 +53,7 @@ module EbayServicesLightApi
     end
 
     def get_product(product_id)
-      body = prepare_body(:get_product, {"ItemID" => product_id})
+      body = prepare_body(:get_item, {"ItemID" => product_id})
       return ebay_request("GetItem", body)
     end
 
