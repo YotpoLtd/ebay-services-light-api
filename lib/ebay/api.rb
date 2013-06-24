@@ -31,7 +31,7 @@ module EbayServicesLightApi
       headers['X-EBAY-API-DEV-NAME'] = EbayServicesLightApi.configuration.dev_id
       headers['X-EBAY-API-CERT-NAME'] = EbayServicesLightApi.configuration.app_name
 
-      request = Typhoeus::Request.new(EbayServicesLightApi.configuration.api_url,method: :post,body: body,headers: headers)
+      request = Typhoeus::Request.new(EbayServicesLightApi.configuration.api_url, :method => :post, :body => body, :headers => headers)
       begin
         request.run
       rescue Exception => e
