@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addSubscriberResponse xmlns="http://www.ebay.com/marketplace/services">
+  <ack>Failure</ack>
+  <timestamp></timestamp>
+  <status>Failure</status>
+  <message>Subscription Failure</message>
+  <subscriptionId></subscriptionId>
+</addSubscriberResponse>

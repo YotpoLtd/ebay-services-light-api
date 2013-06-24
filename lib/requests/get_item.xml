@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetItemRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+  <RequesterCredentials>
+    <eBayAuthToken></eBayAuthToken>
+  </RequesterCredentials>
+  <ItemID></ItemID>
+  <IncludeWatchCount>true</IncludeWatchCount>
+  <IncludeCrossPromotion>true</IncludeCrossPromotion>
+  <IncludeItemSpecifics>true</IncludeItemSpecifics>
+  <IncludeTaxTable>true</IncludeTaxTable>
+  <IncludeItemCompatibilityList>true</IncludeItemCompatibilityList>
+  <DetailLevel>ReturnAll</DetailLevel>
+  <ErrorLanguage>en_USD</ErrorLanguage>
+  <Version>827</Version>
+  <WarningLevel>High</WarningLevel>
+</GetItemRequest>​

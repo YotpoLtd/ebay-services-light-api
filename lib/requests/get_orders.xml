@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetOrdersRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+  <RequesterCredentials>
+    <eBayAuthToken></eBayAuthToken>
+  </RequesterCredentials>
+  <CreateTimeFrom></CreateTimeFrom>
+  <CreateTimeTo></CreateTimeTo>
+  <OrderRole>Seller</OrderRole>
+  <Pagination>
+    <EntriesPerPage>100</EntriesPerPage>
+    <PageNumber></PageNumber>
+  </Pagination>
+  <NumberOfDays>30</NumberOfDays>
+  <IncludeFinalValueFee>true</IncludeFinalValueFee>
+  <DetailLevel>ReturnAll</DetailLevel>
+  <ErrorLanguage>en_US</ErrorLanguage>
+  <Version>827</Version>
+  <WarningLevel>High</WarningLevel>
+</GetOrdersRequest>​
