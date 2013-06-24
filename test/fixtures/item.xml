@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetItemResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2013-06-13T13:22:12.864Z</Timestamp>
+  <Ack>Success</Ack>
+  <Version>827</Version>
+  <Build>E827_CORE_API_16133651_R1</Build>
+  <Item>
+    <AutoPay>false</AutoPay>
+    <BuyerProtection>ItemIneligible</BuyerProtection>
+    <BuyItNowPrice currencyID="USD">30.0</BuyItNowPrice>
+    <Country>US</Country>
+    <Currency>USD</Currency>
+    <Description>&lt;font face="Arial" size="2"&gt;description of the cool defected jeans&lt;/font&gt;</Description>
+    <GiftIcon>0</GiftIcon>
+    <HitCounter>NoHitCounter</HitCounter>
+    <ItemID>110117789239</ItemID>
+    <ListingDetails>
+      <Adult>false</Adult>
+      <BindingAuction>false</BindingAuction>
+      <CheckoutEnabled>true</CheckoutEnabled>
+      <ConvertedBuyItNowPrice currencyID="USD">30.0</ConvertedBuyItNowPrice>
+      <ConvertedStartPrice currencyID="USD">0.99</ConvertedStartPrice>
+      <ConvertedReservePrice currencyID="USD">0.0</ConvertedReservePrice>
+      <HasReservePrice>false</HasReservePrice>
+      <RelistedItemID>110117789840</RelistedItemID>
+      <StartTime>2013-06-13T10:03:40.000Z</StartTime>
+      <EndTime>2013-06-13T10:11:47.000Z</EndTime>
+      <ViewItemURL>http://cgi.sandbox.ebay.com/jeans-/110117789239</ViewItemURL>
+      <HasUnansweredQuestions>false</HasUnansweredQuestions>
+      <HasPublicMessages>false</HasPublicMessages>
+      <ViewItemURLForNaturalSearch>http://cgi.sandbox.ebay.com/jeans-/110117789239</ViewItemURLForNaturalSearch>
+    </ListingDetails>
+    <ListingDesigner>
+      <LayoutID>10000</LayoutID>
+      <ThemeID>10</ThemeID>
+    </ListingDesigner>
+    <ListingDuration>Days_7</ListingDuration>
+    <ListingType>Chinese</ListingType>
+    <Location>Seattle, Washington</Location>
+    <PaymentMethods>PayPal</PaymentMethods>
+    <PayPalEmailAddress>omri@yotpo.com</PayPalEmailAddress>
+    <PrimaryCategory>
+      <CategoryID>11483</CategoryID>
+      <CategoryName>Clothing, Shoes &amp; Accessories:Men's Clothing:Jeans</CategoryName>
+    </PrimaryCategory>
+    <PrivateListing>false</PrivateListing>
+    <Quantity>1</Quantity>
+    <ReservePrice currencyID="USD">0.0</ReservePrice>
+    <ReviseStatus>
+      <ItemRevised>false</ItemRevised>
+    </ReviseStatus>
+    <Seller>
+      <AboutMePage>false</AboutMePage>
+      <Email>omri@yotpo.com</Email>
+      <FeedbackScore>500</FeedbackScore>
+      <PositiveFeedbackPercent>0.0</PositiveFeedbackPercent>
+      <FeedbackPrivate>false</FeedbackPrivate>
+      <FeedbackRatingStar>Purple</FeedbackRatingStar>
+      <IDVerified>true</IDVerified>
+      <eBayGoodStanding>true</eBayGoodStanding>
+      <NewUser>false</NewUser>
+      <RegistrationDate>1995-01-01T00:00:00.000Z</RegistrationDate>
+      <Site>US</Site>
+      <Status>Confirmed</Status>
+      <UserID>testuser_omrico11</UserID>
+      <UserIDChanged>true</UserIDChanged>
+      <UserIDLastChanged>2013-05-27T15:38:10.000Z</UserIDLastChanged>
+      <VATStatus>NoVATTax</VATStatus>
+      <SellerInfo>
+        <AllowPaymentEdit>true</AllowPaymentEdit>
+        <CheckoutEnabled>true</CheckoutEnabled>
+        <CIPBankAccountStored>false</CIPBankAccountStored>
+        <GoodStanding>true</GoodStanding>
+        <LiveAuctionAuthorized>false</LiveAuctionAuthorized>
+        <MerchandizingPref>OptIn</MerchandizingPref>
+        <QualifiesForB2BVAT>false</QualifiesForB2BVAT>
+        <StoreOwner>false</StoreOwner>
+        <SafePaymentExempt>true</SafePaymentExempt>
+      </SellerInfo>
+      <MotorsDealer>false</MotorsDealer>
+    </Seller>
+    <SellingStatus>
+      <BidCount>1</BidCount>
+      <BidIncrement currencyID="USD">1.0</BidIncrement>
+      <ConvertedCurrentPrice currencyID="USD">30.0</ConvertedCurrentPrice>
+      <CurrentPrice currencyID="USD">30.0</CurrentPrice>
+      <HighBidder>
+        <AboutMePage>false</AboutMePage>
+        <EIASToken>nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GhCpWAogmdj6x9nY+seQ==</EIASToken>
+        <Email>avichay@yotpo.com</Email>
+        <FeedbackScore>500</FeedbackScore>
+        <PositiveFeedbackPercent>0.0</PositiveFeedbackPercent>
+        <FeedbackPrivate>false</FeedbackPrivate>
+        <FeedbackRatingStar>Purple</FeedbackRatingStar>
+        <IDVerified>true</IDVerified>
+        <eBayGoodStanding>true</eBayGoodStanding>
+        <NewUser>false</NewUser>
+        <RegistrationDate>1995-01-01T00:00:00.000Z</RegistrationDate>
+        <Site>US</Site>
+        <Status>Confirmed</Status>
+        <UserID>testuser_avichay</UserID>
+        <UserIDChanged>true</UserIDChanged>
+        <UserIDLastChanged>2013-06-13T10:10:32.000Z</UserIDLastChanged>
+        <VATStatus>NoVATTax</VATStatus>
+        <BuyerInfo>
+          <ShippingAddress>
+            <Country>US</Country>
+            <PostalCode>98102</PostalCode>
+          </ShippingAddress>
+        </BuyerInfo>
+        <UserAnonymized>false</UserAnonymized>
+      </HighBidder>
+      <LeadCount>0</LeadCount>
+      <MinimumToBid currencyID="USD">31.0</MinimumToBid>
+      <QuantitySold>1</QuantitySold>
+      <ReserveMet>true</ReserveMet>
+      <SecondChanceEligible>false</SecondChanceEligible>
+      <ListingStatus>Completed</ListingStatus>
+      <SoldAsBin>true</SoldAsBin>
+    </SellingStatus>
+    <ShippingDetails>
+      <ApplyShippingDiscount>false</ApplyShippingDiscount>
+      <CalculatedShippingRate>
+        <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+        <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+      </CalculatedShippingRate>
+      <SalesTax>
+        <SalesTaxPercent>0.0</SalesTaxPercent>
+        <ShippingIncludedInTax>false</ShippingIncludedInTax>
+      </SalesTax>
+      <ShippingServiceOptions>
+        <ShippingService>Other</ShippingService>
+        <ShippingServiceCost currencyID="USD">3.0</ShippingServiceCost>
+        <ShippingServicePriority>1</ShippingServicePriority>
+        <ExpeditedService>false</ExpeditedService>
+        <ShippingTimeMin>1</ShippingTimeMin>
+        <ShippingTimeMax>10</ShippingTimeMax>
+      </ShippingServiceOptions>
+      <InternationalShippingServiceOption>
+        <ShippingService>USPSPriorityMailInternational</ShippingService>
+        <ShippingServiceCost currencyID="USD">25.0</ShippingServiceCost>
+        <ShippingServicePriority>1</ShippingServicePriority>
+        <ShipToLocation>Worldwide</ShipToLocation>
+      </InternationalShippingServiceOption>
+      <ShippingType>Flat</ShippingType>
+      <ThirdPartyCheckout>false</ThirdPartyCheckout>
+      <ShippingDiscountProfileID>0</ShippingDiscountProfileID>
+      <InternationalShippingDiscountProfileID>0</InternationalShippingDiscountProfileID>
+      <SellerExcludeShipToLocationsPreference>false</SellerExcludeShipToLocationsPreference>
+    </ShippingDetails>
+    <ShipToLocations>Worldwide</ShipToLocations>
+    <Site>US</Site>
+    <StartPrice currencyID="USD">0.99</StartPrice>
+    <TimeLeft>PT0S</TimeLeft>
+    <Title>jeans</Title>
+    <WatchCount>0</WatchCount>
+    <HitCount>0</HitCount>
+    <LocationDefaulted>true</LocationDefaulted>
+    <GetItFast>false</GetItFast>
+    <PostalCode>98102</PostalCode>
+    <PictureDetails>
+      <PhotoDisplay>None</PhotoDisplay>
+    </PictureDetails>
+    <DispatchTimeMax>3</DispatchTimeMax>
+    <ProxyItem>false</ProxyItem>
+    <ItemSpecifics>
+      <NameValueList>
+        <Name>Brand</Name>
+        <Value>Levi's</Value>
+        <Source>ItemSpecific</Source>
+      </NameValueList>
+      <NameValueList>
+        <Name>Size Type</Name>
+        <Value>Regular</Value>
+        <Source>ItemSpecific</Source>
+      </NameValueList>
+      <NameValueList>
+        <Name>Bottoms Size (Men's)</Name>
+        <Value>L</Value>
+        <Source>ItemSpecific</Source>
+      </NameValueList>
+      <NameValueList>
+        <Name>Inseam</Name>
+        <Value>36</Value>
+        <Source>ItemSpecific</Source>
+      </NameValueList>
+      <NameValueList>
+        <Name>Style</Name>
+        <Value>Carpenter</Value>
+        <Source>ItemSpecific</Source>
+      </NameValueList>
+      <NameValueList>
+        <Name>Wash</Name>
+        <Value>Acid Washed</Value>
+        <Source>ItemSpecific</Source>
+      </NameValueList>
+    </ItemSpecifics>
+    <BuyerGuaranteePrice currencyID="USD">20000.0</BuyerGuaranteePrice>
+    <BuyerRequirementDetails>
+      <MinimumFeedbackScore>-1</MinimumFeedbackScore>
+      <MaximumUnpaidItemStrikesInfo>
+        <Count>2</Count>
+        <Period>Days_30</Period>
+      </MaximumUnpaidItemStrikesInfo>
+      <MaximumBuyerPolicyViolations>
+        <Count>4</Count>
+        <Period>Days_30</Period>
+      </MaximumBuyerPolicyViolations>
+    </BuyerRequirementDetails>
+    <IntangibleItem>false</IntangibleItem>
+    <ReturnPolicy>
+      <ReturnsAcceptedOption>ReturnsNotAccepted</ReturnsAcceptedOption>
+      <ReturnsAccepted>No returns accepted</ReturnsAccepted>
+    </ReturnPolicy>
+    <PaymentAllowedSite>eBayMotors</PaymentAllowedSite>
+    <PaymentAllowedSite>CanadaFrench</PaymentAllowedSite>
+    <PaymentAllowedSite>Canada</PaymentAllowedSite>
+    <PaymentAllowedSite>US</PaymentAllowedSite>
+    <ConditionID>1750</ConditionID>
+    <ConditionDisplayName>New with defects</ConditionDisplayName>
+    <PostCheckoutExperienceEnabled>false</PostCheckoutExperienceEnabled>
+    <ShippingPackageDetails>
+      <ShippingIrregular>false</ShippingIrregular>
+      <ShippingPackage>PackageThickEnvelope</ShippingPackage>
+      <WeightMajor measurementSystem="English" unit="lbs">0</WeightMajor>
+      <WeightMinor measurementSystem="English" unit="oz">0</WeightMinor>
+    </ShippingPackageDetails>
+    <HideFromSearch>false</HideFromSearch>
+  </Item>
+</GetItemResponse>​

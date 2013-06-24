@@ -1,4 +1,4 @@
-require './lib/volusion'
+require './lib/ebay-services-light-api'
 require 'rake/testtask'
 require 'bundler'
 Bundler::GemHelper.install_tasks

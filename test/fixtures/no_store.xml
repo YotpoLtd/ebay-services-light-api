@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetStoreResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Timestamp>2013-06-24T15:58:20.419Z</Timestamp>
+  <Ack>Failure</Ack>
+  <Errors>
+    <ShortMessage>User must have a store subscription.</ShortMessage>
+    <LongMessage>User must have a store subscription.</LongMessage>
+    <ErrorCode>13003</ErrorCode>
+    <SeverityCode>Error</SeverityCode>
+    <ErrorParameters ParamID="0">
+      <Value>testuser_omrico11</Value>
+    </ErrorParameters>
+    <ErrorClassification>RequestError</ErrorClassification>
+  </Errors>
+  <Version>825</Version>
+  <Build>E825_UNI_API5_16105869_R1</Build>
+</GetStoreResponse>​

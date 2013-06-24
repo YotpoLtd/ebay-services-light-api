@@ -10,7 +10,6 @@
     <EntriesPerPage>100</EntriesPerPage>
     <PageNumber></PageNumber>
   </Pagination>
-  <NumberOfDays>30</NumberOfDays>
   <IncludeFinalValueFee>true</IncludeFinalValueFee>
   <DetailLevel>ReturnAll</DetailLevel>
   <ErrorLanguage>en_US</ErrorLanguage>
