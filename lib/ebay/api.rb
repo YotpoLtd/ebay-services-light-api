@@ -44,10 +44,10 @@ module EbayServicesLightApi
       if result["Ack"] == 'Failure'
         #handle error
         if result["Errors"].class == Hash
-          raise EbayExceptions::NoStoreError if result["Errors"]["ErrorCode"] == '13003'#error code for user with no store subscription
-          raise EbayExceptions::InvalidTokenError if result["Errors"]["ErrorCode"] == '931'#error code for user with invalid token
+          raise Exceptions::NoStoreError if result["Errors"]["ErrorCode"] == '13003'#error code for user with no store subscription
+          raise Exceptions::InvalidTokenError if result["Errors"]["ErrorCode"] == '931'#error code for user with invalid token
         end
-        raise EbayExceptions::BasicError
+        raise Exceptions::BasicError
       end
       return result
     end
