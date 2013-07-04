@@ -4,7 +4,7 @@ require 'bundler'
 Bundler::GemHelper.install_tasks
 
 Rake::TestTask.new(:test) do |t|
-  t.libs << 'test'
+  t.libs << ['test','lib']
   t.pattern = 'test/**/*_test.rb'
   t.verbose = true
 end

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<removeSubscriberResponse xmlns="http://www.ebay.com/marketplace/services">
+  <ack>Success</ack>
+  <timestamp></timestamp>
+</removeSubscriberResponse>

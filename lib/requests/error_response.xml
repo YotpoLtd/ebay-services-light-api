@@ -3,6 +3,6 @@
   <ack>Failure</ack>
   <timestamp></timestamp>
   <status>Failure</status>
-  <message>Subscription Failure</message>
+  <message></message>
   <subscriptionId></subscriptionId>
 </addSubscriberResponse>

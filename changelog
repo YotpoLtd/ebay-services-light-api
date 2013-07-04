@@ -1,0 +1,5 @@
+2013-07-04 Alon Braitstein
+1.Add tests using WebMock gem.
+2.Include lib folder in gem specifications.
+3. Add api calls: subscription failure, unsubscribe success and create store costume page.
+4. Add .rvmrc file

@@ -1,5 +1,5 @@
 *.gem
-.idea/
+.idea
 *.rbc
 .bundle
 .config
@@ -17,3 +17,4 @@ tmp
 .yardoc
 _yardoc
 doc/
+.DS_Store

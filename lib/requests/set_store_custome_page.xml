@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SetStoreCustomPageRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+  <RequesterCredentials>
+    <eBayAuthToken></eBayAuthToken>
+  </RequesterCredentials>
+  <CustomPage>
+    <Name></Name>
+    <Status></Status>
+    <Content></Content>
+    <LeftNav></LeftNav>
+    <Order></Order>
+    <PreviewEnabled></PreviewEnabled>
+  </CustomPage>
+</SetStoreCustomPageRequest>

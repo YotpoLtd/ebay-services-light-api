@@ -7,8 +7,16 @@ module EbayServicesLightApi
       @auth_token = auth_token
     end
 
-    def success_response(subscription_id)
+    def subscription_success_response(subscription_id)
       return prepare_body(:success_response, {"timestamp" => DateTime.now, "subscriptionId" => subscription_id})
+    end
+
+    def subscription_error_response(subscription_id, message = nil)
+      return prepare_body(:error_response, {"timestamp" => DateTime.now, "subscriptionId" => subscription_id, "message" => (message || 'Subscription Failure')})
+    end
+
+    def unsubscription_success_response
+      return prepare_body(:remove_subscriber_success_response, {"timestamp" => DateTime.now})
     end
 
     def prepare_body(call_name, params={})
@@ -76,6 +84,12 @@ module EbayServicesLightApi
       body = prepare_body(:get_time)
       return ebay_request("GeteBayOfficialTime", body)
     end
+
+    def set_store_custome_pages(page_data = {})
+      body = prepare_body(:set_store_custome_pages, {"Content" => page_data[:content] || '', "Name" => page_data[:name] || '', "Status" => page_data[:status] || 'Active', "LeftNav" => page_data[:left_nav] || 'true', "Order" => page_data[:order] || 3 || 'Active', "PreviewEnabled" => page_data[:preview_enabled] || 'true'})
+      return ebay_request("SetStoreCustomPageRequest", body)
+    end
+
   end
 end
 

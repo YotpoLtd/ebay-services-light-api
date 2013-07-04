@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetStoreResponse xmlns="urn:ebay:apis:eBLBaseComponents">
+  <Store> StoreType
+    <CustomCategories> StoreCustomCategoryArrayType
+      <CustomCategory> StoreCustomCategoryType
+        <CategoryID> long </CategoryID>
+        <ChildCategory> StoreCustomCategoryType
+          <CategoryID> long </CategoryID>
+          <ChildCategory> StoreCustomCategoryType </ChildCategory>
+          <Name> string </Name>
+          <Order> int </Order>
+        </ChildCategory>
+        <Name> string </Name>
+        <Order> int </Order>
+      </CustomCategory>
+    </CustomCategories>
+    <CustomHeader> string </CustomHeader>
+    <CustomHeaderLayout> StoreCustomHeaderLayoutCodeType </CustomHeaderLayout>
+    <CustomListingHeader> StoreCustomListingHeaderType
+      <AddToFavoriteStores> boolean </AddToFavoriteStores>
+      <DisplayType> StoreCustomListingHeaderDisplayCodeType </DisplayType>
+      <LinkToInclude> StoreCustomListingHeaderLinkType
+        <LinkID> int </LinkID>
+        <LinkType> StoreCustomListingHeaderLinkCodeType </LinkType>
+        <Order> int </Order>
+      </LinkToInclude>
+      <Logo> boolean </Logo>
+      <SearchBox> boolean </SearchBox>
+      <SignUpForStoreNewsletter> boolean </SignUpForStoreNewsletter>
+    </CustomListingHeader>
+    <Description> string </Description>
+    <ExportListings> boolean </ExportListings>
+    <HeaderStyle> StoreHeaderStyleCodeType </HeaderStyle>
+    <HomePage> long </HomePage>
+    <ItemListLayout> StoreItemListLayoutCodeType </ItemListLayout>
+    <ItemListSortOrder> StoreItemListSortOrderCodeType </ItemListSortOrder>
+    <LastOpenedTime> dateTime </LastOpenedTime>
+    <Logo> StoreLogoType
+      <LogoID> int </LogoID>
+      <Name> string </Name>
+      <URL> anyURI </URL>
+    </Logo>
+    <MerchDisplay> MerchDisplayCodeType </MerchDisplay>
+    <Name> string </Name>
+    <SubscriptionLevel> StoreSubscriptionLevelCodeType </SubscriptionLevel>
+    <Theme> StoreThemeType
+      <ColorScheme> StoreColorSchemeType
+        <Color> StoreColorType
+          <Accent> string </Accent>
+          <Primary> string </Primary>
+          <Secondary> string </Secondary>
+        </Color>
+        <ColorSchemeID> int </ColorSchemeID>
+        <Font> StoreFontType
+          <DescColor> string </DescColor>
+          <DescFace> StoreFontFaceCodeType </DescFace>
+          <DescSize> StoreFontSizeCodeType </DescSize>
+          <NameColor> string </NameColor>
+          <NameFace> StoreFontFaceCodeType </NameFace>
+          <NameSize> StoreFontSizeCodeType </NameSize>
+          <TitleColor> string </TitleColor>
+          <TitleFace> StoreFontFaceCodeType </TitleFace>
+          <TitleSize> StoreFontSizeCodeType </TitleSize>
+        </Font>
+        <Name> string </Name>
+      </ColorScheme>
+      <Name> string </Name>
+      <ThemeID> int </ThemeID>
+    </Theme>
+    <TitleWithCompatibility> boolean </TitleWithCompatibility>
+    <URL> anyURI </URL>
+    <URLPath> string </URLPath>
+  </Store>
+  <Ack> AckCodeType </Ack>
+  <Build> string </Build>
+  <CorrelationID> string </CorrelationID>
+  <Errors> ErrorType
+    <ErrorClassification> ErrorClassificationCodeType </ErrorClassification>
+    <ErrorCode> token </ErrorCode>
+    <ErrorParameters ParamID="string"> ErrorParameterType
+      <Value> string </Value>
+    </ErrorParameters>
+    <LongMessage> string </LongMessage>
+    <SeverityCode> SeverityCodeType </SeverityCode>
+    <ShortMessage> string </ShortMessage>
+  </Errors>
+  <HardExpirationWarning> string </HardExpirationWarning>
+  <Timestamp> dateTime </Timestamp>
+  <Version> string </Version>
+</GetStoreResponse>
