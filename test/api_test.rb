@@ -8,10 +8,11 @@ class ApiTest < Test::Unit::TestCase
     @shop_token = 'shop_token'
     @ebay_api = EbayServicesLightApi::Api.new(@shop_token)
     EbayServicesLightApi.configure do |config|
-      config.app_token = 'my_ebay_app_token'
+      config.app_id= 'my_ebay_app_token'
       config.api_url = 'https://api.sandbox.ebay.com/ws/api.dll'
       config.dev_id = 123
-      config.app_name = 'Yotpo'
+      config.cert_id = "adsn123"
+      config.ru_name = "Yotpo-1231ja"
     end
   end
 
