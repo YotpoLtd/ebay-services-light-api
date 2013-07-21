@@ -10,10 +10,12 @@ module EbayServicesLightApi
   end
 
   class Configuration
-    attr_accessor :app_token
     attr_accessor :api_url
+    attr_accessor :app_id
     attr_accessor :dev_id
-    attr_accessor :app_name
+    attr_accessor :cert_id
+    attr_accessor :ru_name
+    attr_accessor :base_signin_url
   end
 
 end

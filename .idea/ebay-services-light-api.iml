@@ -13,21 +13,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="active_support (v3.0.0, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.0.0, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.3.5, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.5, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="crack (v0.4.0, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ethon (v0.5.12, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.0, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="metaclass (v0.0.1, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.23, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_portile (v0.5.0, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mocha (v0.14.0, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.0, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="safe_yaml (v0.9.3, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="typhoeus (v0.6.3, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="webmock (v1.12.3, RVM: ruby-1.9.3-p429 [ebay-services-light-api]) [gem]" level="application" />
   </component>
 </module>
 

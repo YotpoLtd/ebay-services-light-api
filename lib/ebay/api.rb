@@ -3,7 +3,7 @@ module EbayServicesLightApi
 
     CONF = YAML.load_file(File.expand_path('../../conf/conf.yml', __FILE__))
 
-    def initialize(auth_token)
+    def initialize(auth_token=nil)
       @auth_token = auth_token
     end
 
@@ -20,7 +20,7 @@ module EbayServicesLightApi
     end
 
     def prepare_body(call_name, params={})
-      params['eBayAuthToken'] = @auth_token
+      params['eBayAuthToken'] = @auth_token if @auth_token
       doc = Nokogiri::XML(File.read(File.expand_path("../../requests/#{call_name}.xml", __FILE__)))
 
       params.each do |k, v|
@@ -35,9 +35,9 @@ module EbayServicesLightApi
     def ebay_request(call_name, body)
       headers = CONF['HEADERS']
       headers['X-EBAY-API-CALL-NAME'] = call_name
-      headers['X-EBAY-API-CERT-NAME'] = EbayServicesLightApi.configuration.app_token
       headers['X-EBAY-API-DEV-NAME'] = EbayServicesLightApi.configuration.dev_id
-      headers['X-EBAY-API-CERT-NAME'] = EbayServicesLightApi.configuration.app_name
+      headers['X-EBAY-API-APP-NAME'] = EbayServicesLightApi.configuration.app_id
+      headers['X-EBAY-API-CERT-NAME'] = EbayServicesLightApi.configuration.cert_id
 
       request = Typhoeus::Request.new(EbayServicesLightApi.configuration.api_url, :method => :post, :body => body, :headers => headers)
       begin
@@ -85,9 +85,24 @@ module EbayServicesLightApi
       return ebay_request("GeteBayOfficialTime", body)
     end
 
-    def set_store_custome_pages(page_data = {})
-      body = prepare_body(:set_store_custome_pages, {"Content" => page_data[:content] || '', "Name" => page_data[:name] || '', "Status" => page_data[:status] || 'Active', "LeftNav" => page_data[:left_nav] || 'true', "Order" => page_data[:order] || 3 || 'Active', "PreviewEnabled" => page_data[:preview_enabled] || 'true'})
-      return ebay_request("SetStoreCustomPageRequest", body)
+    def set_store_custom_page(page_data = {})
+      body = prepare_body(:set_store_custom_page, {"Content" => page_data[:content] || '', "Name" => page_data[:name] || '', "Status" => page_data[:status] || 'Active', "LeftNav" => page_data[:left_nav] || 'true', "Order" => page_data[:order] || 3 || 'Active', "PreviewEnabled" => page_data[:preview_enabled] || 'true'})
+      return ebay_request("SetStoreCustomPage", body)
+    end
+
+    def get_session_id
+      body = prepare_body(:get_session_id, {"RuName" => EbayServicesLightApi.configuration.ru_name})
+      result =  ebay_request("GetSessionID", body)
+      return result["SessionID"]
+    end
+
+    def fetch_token(session_id)
+      body = prepare_body(:fetch_token, {"SessionID" => session_id})
+      result = ebay_request("FetchToken", body)
+    end
+
+    def self.get_signin_url(session_id)
+      return "#{EbayServicesLightApi.configuration.base_signin_url}&RuName=#{EbayServicesLightApi.configuration.ru_name}&SessID=#{session_id}"
     end
 
   end

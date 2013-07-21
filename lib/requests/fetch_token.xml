@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FetchTokenRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+  <SessionID></SessionID>
+  <ErrorLanguage>en_US</ErrorLanguage>
+  <Version>827</Version>
+  <WarningLevel>High</WarningLevel>
+</FetchTokenRequest>
